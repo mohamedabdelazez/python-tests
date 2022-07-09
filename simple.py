@@ -1,8 +1,8 @@
 import sys
 import time
-o = open("C:\\Users\Mohamed Abdelazez\Desktop\s.txt", encoding='utf8')
-o2 = open("C:\\Users\Mohamed Abdelazez\Desktop\calp.txt", encoding='utf8')
-lines = o.readlines()
+o = open("C:\\Users\Mohamed\Desktop\s.txt", encoding='utf8')
+o2 = open("C:\\Users\Mohamed\Desktop\calp.txt", encoding='utf8')
+names = o.readlines()
 h = """
           ......       ......
         .:oOOOOo:.   .:oOOOOo:.
@@ -25,7 +25,7 @@ h = """
 print(h)
 v= o2.readlines()
 print(v)
-for i in lines:
+for i in names:
     time.sleep(3)
     print("عيد سعيد عليك يا "+i)
 
